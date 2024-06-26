@@ -245,10 +245,13 @@ nav {
 }
 
 .special__card {
-  padding: 1rem;
+   padding: 1rem;
   text-align: center;
   border-radius: 2rem;
   transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .special__card:hover {
@@ -282,10 +285,11 @@ nav {
 }
 
 .special__footer {
-  display: flex;
+   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  flex-direction: column;
 }
 
 .special__footer .price {
