@@ -28,6 +28,14 @@ ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
   delay: 500,
 });
+ScrollReveal().reveal(".hero-content p", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+ScrollReveal().reveal(".hero-button", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
 ScrollReveal().reveal(".header__content .section__description", {
   ...scrollRevealOption,
   delay: 1000,
